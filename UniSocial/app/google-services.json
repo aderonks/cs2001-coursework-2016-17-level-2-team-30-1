@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "537209541168",
+    "firebase_url": "https://unisocial-9238f.firebaseio.com",
+    "project_id": "unisocial-9238f",
+    "storage_bucket": "unisocial-9238f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537209541168:android:0df6db628b66929d",
+        "android_client_info": {
+          "package_name": "com.app.groupproject.unisocial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537209541168-34a6qon8rnbov0rlunlcr3a0a3mnat3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIkL-bi6Al8GBTVslBpMLvTiZgk-MR-kQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537209541168-34a6qon8rnbov0rlunlcr3a0a3mnat3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

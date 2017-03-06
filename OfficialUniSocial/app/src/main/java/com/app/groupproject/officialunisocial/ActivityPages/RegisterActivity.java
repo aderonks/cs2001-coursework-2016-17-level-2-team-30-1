@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Spinner;
 
 import com.app.groupproject.officialunisocial.R;
 
@@ -35,6 +36,9 @@ public class RegisterActivity extends AppCompatActivity {
         //retrieved the buttons from the layout activity page
         Button registerBtn = (Button) findViewById(R.id.register_button_id);
         Button browserImg = (Button) findViewById(R.id.BrowseProfileImage_button_id);
+
+        //Added a spinner to give users an option between male and female
+        Spinner genderOptions = (Spinner) findViewById(R.id.gender_options_id);
 
 
     }

@@ -2,6 +2,7 @@ package com.app.groupproject.officialunisocial.ActivityPages;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 
@@ -31,7 +32,9 @@ public class RegisterActivity extends AppCompatActivity {
         //ImageView for profile pic
         profileImg = (ImageView) findViewById(R.id.profileimage_id);
 
-
+        //retrieved the buttons from the layout activity page
+        Button registerBtn = (Button) findViewById(R.id.register_button_id);
+        Button browserImg = (Button) findViewById(R.id.BrowseProfileImage_button_id);
 
 
     }

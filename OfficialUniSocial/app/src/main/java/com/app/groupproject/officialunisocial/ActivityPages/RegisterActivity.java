@@ -2,6 +2,7 @@ package com.app.groupproject.officialunisocial.ActivityPages;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -40,6 +41,10 @@ public class RegisterActivity extends AppCompatActivity {
         //Added a spinner to give users an option between male and female
         Spinner genderOptions = (Spinner) findViewById(R.id.gender_options_id);
 
+
+        //added array adapter which gets the string array values which the user choses from
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.gender_array,android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
     }
 }
